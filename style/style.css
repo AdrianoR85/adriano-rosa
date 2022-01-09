@@ -259,6 +259,7 @@ main#curriculo{
 .dados h1 {
     font-size: 2em;
     padding: 5px;
+    margin-bottom: 10px ;
     font-family: var(--font-subtTitle);
     font-weight: bold;
     color: var(--cor5);
