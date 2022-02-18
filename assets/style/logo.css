@@ -1,0 +1,8 @@
+.logo {
+    color: var(--cor0);
+    font-family: var(--meu-nome);
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.568);
+}

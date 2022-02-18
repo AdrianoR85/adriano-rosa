@@ -1,0 +1,19 @@
+.capa__descricao {
+    text-align: center;
+    padding: 1.5rem ; 
+}
+
+.capa__descricao___titulo {
+    color: var(--cor0);
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: var(--meu-nome);
+    padding-bottom: .5rem;
+    text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.568);
+}
+
+.capa__descricao___subTitulo {
+    color: var(--cor3);
+    font-size: 1.1rem;
+    font-family: var(--montserrat);
+}

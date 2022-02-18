@@ -1,0 +1,12 @@
+.caixa {
+    display: flex;
+    justify-content: center;
+    background-color:var(--cor2);
+    margin-bottom: 2rem;
+    width: 70%;
+    height: 200px;
+}
+
+.caixa:first-child {
+    margin-top: 2rem;
+}

@@ -1,42 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adriano Rosa</title>
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/style.css">
-    <script type="text/javascript" src="menu.js"></script>
+    <link rel="stylesheet" href="assets/style/normalize.css">
+    <link rel="stylesheet" href="assets/style/reset.css">
+    <link rel="stylesheet" href="assets/style/cores.css">
+    <link rel="stylesheet" href="assets/style/fontes.css">
+    <link rel="stylesheet" href="assets/style/body.css">
+    <link rel="stylesheet" href="assets/style/cabecalho.css">
+    <link rel="stylesheet" href="assets/style/logo.css">
+    <link rel="stylesheet" href="assets/style/menu/menu-item.css">
+    <link rel="stylesheet" href="assets/style/menu/menu-icone.css">
+    <link rel="stylesheet" href="assets/style/capa/capa.css">
+    <link rel="stylesheet" href="assets/style/capa/capa-imagem.css">
+    <link rel="stylesheet" href="assets/style/capa/capa-imagem-minhaFoto.css">
+    <link rel="stylesheet" href="assets/style/capa/capa-descricao.css">
+    
 
 </head>
 
 <body id="home">
 
-    <header class="cabecalho" id="ajuste">
-        <div >
-            <nav id="navigation">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portifolio.html">Portifólio</a></li>
-                    <li><a href="curriculo.html">Curriculo</a></li>
-                    <li><a href="Contato.html">contato</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="cabecalho">
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__icone">&#9776;</li>
+                <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+                <li class="menu__item"><a class="menu__link" href="portifolio.html">Portifólio</a></li>
+                <li class="menu__item"><a class="menu__link" href="curriculo.html">Curriculo</a></li>
+                <li class="menu__item"><a class="menu__link" href="Contato.html">contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div id="capa">
-        <div id="profile-pic">
-            <img src="image/foto-capa.png" alt="minha foto">
+    <section class="capa">
+        <div class="capa__imagem">
+            <img class="capa__imagem___minhaFoto" src="assets/image/foto-capa-pequena.jpg" alt="">
         </div>
-
-        <div id="profile-title">
-            <h1>Adriano <span>Rosa</span></h1>
-            <h2>Estudante de desenvolvimento Web</h2>
-        </div> 
-    </div>
+        <div class="capa__descricao">
+            <h2 class="capa__descricao___titulo">Adriano Rosa</h2>
+            <p class="capa__descricao___subTitulo">Estudante de Desenvolvimento WEB</p>
+        </div>
+    </section>
 </body>
 
 </html>

@@ -1,0 +1,19 @@
+.caixa__conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.caixa__conteudo___titulo {
+    color: var(--cor0);
+    font-size: 1.4rem;
+    font-family: var(--roboto);
+    padding-bottom: .8rem;
+}
+
+.caixa__conteudo___texto {
+    color: var(--cor3);
+    font-size: 1.2rem;
+    font-family: var(--roboto);
+}
