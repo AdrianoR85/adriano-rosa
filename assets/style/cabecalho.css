@@ -5,3 +5,7 @@
    justify-content: space-between;
 
 }
+.cabecalho--modificado{
+   display: flex;
+   justify-content: right;
+}

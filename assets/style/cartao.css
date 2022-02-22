@@ -1,3 +1,4 @@
-#home {
+.cartao {
     background: var(--cor5);
+    width: 100%;
 }

@@ -1,0 +1,5 @@
+.apresentacao__nome {
+    color: var(--cor3);
+    font-family: var(--montserrat);
+    font-size: 1.8rem;
+}

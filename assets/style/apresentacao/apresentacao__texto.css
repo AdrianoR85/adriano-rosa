@@ -1,0 +1,9 @@
+.apresentacao__texto {
+    font-family: var(--montserrat);
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.apresentacao__texto:last-child {
+    padding-bottom: 1rem;
+}

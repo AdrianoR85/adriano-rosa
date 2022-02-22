@@ -6,3 +6,7 @@
     padding-left: 1rem;
     text-shadow: 3px 5px 5px rgba(0, 0, 0, 0.568);
 }
+
+.logo--off {
+    display: none;
+}

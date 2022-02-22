@@ -1,52 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato - Adriano Rosa</title>
-    <link rel="stylesheet" href="style/reset.css"> <!-- CSS Rese de NIcolas Gallaghter-->
-    <link rel="stylesheet" href="style/style.css">
-    <script type="text/javascript" src="menu.js"></script>
+    <link rel="stylesheet" href="assets/style/normalize.css">
+    <link rel="stylesheet" href="assets/style/reset.css">
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/body.css">
+    <link rel="stylesheet" href="assets/style/cabecalho.css">
+    <link rel="stylesheet" href="assets/style/logo.css">
+    <link rel="stylesheet" href="assets/style/menu/menu-item.css">
+    <link rel="stylesheet" href="assets/style/menu/menu-icone.css">
+    <link rel="stylesheet" href="assets/style/caminho/caminho.css">
+    <link rel="stylesheet" href="assets/style/caminho/caminho-lista.css">
+    <link rel="stylesheet" href="assets/style/caminho/caminho-item.css">
+    <link rel="stylesheet" href="assets/style/titulo-principal.css">
+    <link rel="stylesheet" href="assets/style/contato/contato.css">
+    <link rel="stylesheet" href="assets/style/contato/contato-tipo.css">
+    <link rel="stylesheet" href="assets/style/contato/contato-dados.css">
+    <link rel="stylesheet" href="assets/style/contato/contato-imagem.css">
 </head>
+
 <body>
-    <header class="alterar-fundo">
-        <div class="cabecalho">
-            <h1>Adriano<span> Rosa</span></h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portifolio.html">Portifólio</a></li>
-                    <li><a href="curriculo.html">Curriculo</a></li>
-                    <li><a href="Contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+
+    <header class="cabecalho">
+        <h1 class="logo">Adriano Rosa</h1>
+        <nav class="menu">
+            <ul class="menu__lista">
+                <li class="menu__icone">&#9776;</li>
+                <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+                <li class="menu__item"><a class="menu__link" href="portifolio.html">Portifólio</a></li>
+                <li class="menu__item"><a class="menu__link" href="curriculo.html">Curriculo</a></li>
+                <li class="menu__item"><a class="menu__link" href="Contato.html">contato</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="contato">
-        <div class="caminho" >
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li>></li>
-                <li></a>Contato</li>
+    <main class="principal">
+        <section class="caminho">
+            <ul class="caminho__lista">
+                <li class="caminho__item"><a class="caminho__link" href="index.html">Home</a></li>
+                <li class="caminho__item">></li>
+                <li class="caminho__item">Contatos</li>
             </ul>
-        </div>
+        </section>
 
+        <section>
+            <div class="contato">
+                <h3 class="contato__tipo">E-mail:</h3>
+                <p class="contato__dados">adrianorosa085@gmail.com</p>
 
-        <div>
-            <div class="contato-informacoes">
-                <h3>E-mail:</h3>
-                <p>adrianorosa085@gmail.com</p>
-                <h3>Telefone:</h3>
-                <p>55 47 996374501</p>
-                <h3>Redes Sociais:</h3>
-                <a href="https://github.com/AdrianoR85" target="_blank"><img class="social-img" src="image/github.png" alt="Link para o github"></a>
-                <a href="https://www.instagram.com/adriano.rosa85/" target="_blank"><img class="social-img" src="image/instagram .png" alt="Link para o instagram"></a>
-                <a href="https://www.linkedin.com/feed/?trk=BR-SEM_google-adwords_Jordan-brand-sign-up" target="_blank"><img class="social-img" src="image/linkedin.png" alt="Link para o linkedin"></a>
+                <h3 class="contato__tipo">Telefone:</h3>
+                <p class="contato__dados">55 47 996374501</p>
+
+                <h3 class="contato__tipo">Redes Sociais:</h3>
+                <a class="contato__link" href="https://github.com/AdrianoR85" target="_blank">
+                    <img class="contato__imagem--icone" src="assets/image/github.png" alt="Link para o github"></a>
+                <a href="https://www.instagram.com/adriano.rosa85/" target="_blank">
+                    <img class="contato__imagem--icone" src="assets/image/instagram .png"
+                        alt="Link para o instagram"></a>
+                <a
+                    href="https://www.linkedin.com/feed/?trk=BR-SEM_google-adwords_Jordan-brand-sign-up"
+                    target="_blank">
+                    <img class="contato__imagem--icone" src="assets/image/linkedin.png"
+                        alt="Link para o linkedin"></a>
             </div>
-        </div>
+        </section>
 
     </main>
 </body>
+
 </html>
