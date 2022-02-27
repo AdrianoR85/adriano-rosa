@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,33 +9,42 @@
     <link rel="stylesheet" href="assets/style/normalize.css">
     <link rel="stylesheet" href="assets/style/reset.css">
     <link rel="stylesheet" href="assets/style/style.css">
-    <link rel="stylesheet" href="assets/style/fontes.css">
-    <link rel="stylesheet" href="assets/style/body.css">
     <link rel="stylesheet" href="assets/style/cabecalho.css">
+    <link rel="stylesheet" href="assets/style/cabecalhoJS.css">
     <link rel="stylesheet" href="assets/style/logo.css">
     <link rel="stylesheet" href="assets/style/menu/menu-item.css">
     <link rel="stylesheet" href="assets/style/menu/menu-icone.css">
+    <link rel="stylesheet" href="assets/style/menu/menu__link.css">
     <link rel="stylesheet" href="assets/style/caminho/caminho.css">
     <link rel="stylesheet" href="assets/style/caminho/caminho-lista.css">
     <link rel="stylesheet" href="assets/style/caminho/caminho-item.css">
-    <link rel="stylesheet" href="assets/style/titulo-principal.css">
     <link rel="stylesheet" href="assets/style/cartao.css">
     <link rel="stylesheet" href="assets/style/apresentacao/apresentacao.css">
     <link rel="stylesheet" href="assets/style/apresentacao/apresentacao__foto.css">
     <link rel="stylesheet" href="assets/style/apresentacao/apresentacao__nome.css">
     <link rel="stylesheet" href="assets/style/apresentacao/apresentacao__titulo.css">
     <link rel="stylesheet" href="assets/style/apresentacao/apresentacao__texto.css">
+    <link rel="stylesheet" href="assets/style/curriculo/curriculo.css">
+    <link rel="stylesheet" href="assets/style/curriculo/curriculi__secao.css">
+    <link rel="stylesheet" href="assets/style/curriculo/curriculo__titulo.css">
+    <link rel="stylesheet" href="assets/style/curriculo/curriculo__subTitulo.css">
+    <link rel="stylesheet" href="assets/style/curriculo/curriculo__descricao.css">
+    <link rel="stylesheet" href="assets/style/curriculo/curriculo__lista.css">
+    <link rel="stylesheet" href="assets/style/curriculo/curriculo__lugar.css">
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
 </head>
+
 <body>
-    <header class="cabecalho">
+    <header id="cabecalho" class="cabecalho">
         <h1 class="logo">Adriano Rosa</h1>
-        <nav class="menu">
-            <ul class="menu__lista">
-                <li class="menu__icone">&#9776;</li>
-                <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
-                <li class="menu__item"><a class="menu__link" href="portifolio.html">Portifólio</a></li>
-                <li class="menu__item"><a class="menu__link" href="curriculo.html">Curriculo</a></li>
-                <li class="menu__item"><a class="menu__link" href="Contato.html">contato</a></li>
+        <nav>
+            <ul class="menu__lista menu__lista--js">
+                <li class="menu__item menu__item--js"><a class="menu__link" href="index.html">Home</a></li>
+                <li class="menu__item menu__item--js"><a class="menu__link" href="portifolio.html">Portifólio</a></li>
+                <li class="menu__item menu__item--js"><a class="menu__link" href="curriculo.html">Curriculo</a></li>
+                <li class="menu__item menu__item--js"><a class="menu__link" href="Contato.html">Contato</a></li>
+                <li class="menu__icone" onclick="openMenu()">&#9776;</li>
             </ul>
         </nav>
     </header>
@@ -49,84 +59,93 @@
             </ul>
         </section>
 
-        <section class="curriculo">
-            <div class="cartao">
-                <div class="apresentacao">
-                    <img class="apresentacao__foto" src="assets/image/foto-curriculo.jpg" alt="">
-                    <h2  class="apresentacao__nome">Adriano Rosa</h2>
-                    <h3  class="apresentacao__titulo">Ocupação</h3>
-                    <p   class="apresentacao__texto">Operador Logístico</p>
-                    <h3  class="apresentacao__titulo">Data de nascimento</h3>
-                    <p   class="apresentacao__texto">31/01/1985</p>
-                    <h3  class="apresentacao__titulo">Residência</h3>
-                    <p   class="apresentacao__texto">Joinville, SC</p>
-                </div>
+        <section class="cartao">
+            <div class="apresentacao">
+                <img class="apresentacao__foto" src="assets/image/foto-curriculo.jpg" alt="">
+                <h2 class="apresentacao__nome">Adriano Rosa</h2>
+                <h3 class="apresentacao__titulo">Ocupação</h3>
+                <p class="apresentacao__texto">Operador Logístico</p>
+                <h3 class="apresentacao__titulo">Data de nascimento</h3>
+                <p class="apresentacao__texto">31/01/1985</p>
+                <h3 class="apresentacao__titulo">Residência</h3>
+                <p class="apresentacao__texto">Joinville, SC</p>
             </div>
+        </section>
 
-            <div class="informacao">
-                <section class="campo">
-                    <h2  class="campo__titulo">Sobre me</h2>
-                    <p   class="campo__descricao">Sou formado em Técnico em Logística, estudei inglês na Nova Zelândia por 3 meses onde adquiri o conhecimento básico na língua. Atualmente estou estudando Front end pela site a Alura.</p>
-                    <p>Na área profissional trabalhei como operador de máquina por mais de 10 anos, tive uma breve passagem pelo comércio, tanto no Brasil como no Exterior, hoje trabalho na área de expedição como operador logístico.</p>
-                </section>
+        <section class="curriculo">
+            <section class="curriculo__secao">
+                <h2 class="curriculo__titulo">Sobre me</h2>
+                <p class="curriculo__descricao">Sou formado em Técnico em Logística, estudei inglês na Nova Zelândia
+                    por 3 meses onde adquiri o conhecimento básico na língua. Atualmente estou estudando Front end pela
+                    site a Alura.</p>
+                <p class="curriculo__descricao">Na área profissional trabalhei como operador de máquina por mais de 10 anos, tive uma breve passagem
+                    pelo comércio, tanto no Brasil como no Exterior, hoje trabalho na área de expedição como operador
+                    logístico.</p>
+            </section>
 
-               <section class="campo">
-                    <h2 class="campo__titulo">Habilidades</h2>
-                    <ul class="campo__lista">
-                        <li class="campo__item">excel</li>
-                        <li class="campo__item">Word</li>
-                        <li class="campo__item">Google Drive</li>
-                        <li class="campo__item">WMS Alcis</li>
-                        <li class="campo__item">Trabalho em equipe</li>
-                        <li class="campo__item">Autodidata</li>
-                        <li class="campo__item">Comprometimento</li>
-                        <li class="campo__item">Git (Iniciante) </li>
-                        <li class="campo__item">HTML (Iniciante)</li>
-                        <li class="campo__item">CSS (Iniciante)</li>
-                    </ul>
-                </section>
+            <section class="curriculo__secao">
+                <h2 class="curriculo__titulo">Habilidades</h2>
+                <ul class="curriculo__lista">
+                    <li class="curriculo__item">excel</li>
+                    <li class="curriculo__item">Word</li>
+                    <li class="curriculo__item">Google Drive</li>
+                    <li class="curriculo__item">WMS Alcis</li>
+                    <li class="curriculo__item">Trabalho em equipe</li>
+                    <li class="curriculo__item">Autodidata</li>
+                    <li class="curriculo__item">Comprometimento</li>
+                    <li class="curriculo__item">Git (Iniciante) </li>
+                    <li class="curriculo__item">HTML (Iniciante)</li>
+                    <li class="curriculo__item">CSS (Iniciante)</li>
+                </ul>
+            </section>
 
-                <section class="campo">
-                    <h2  class="campo__titulo">Experiência</h2>
-                    <h3  class="campo__lugar">Krona Tubos e Conexões</h3>
-                    <h4  class="campo__subTitulo">Ano:</h4>
-                    <p   class="campo__descricao">2019 - atualmente</p>
-                    <h4  class="campo__subTitulo">Cargo:</h4>
-                    <p   class="campo__descricao">Operador Logistico</p>
-                    <h4  class="campo__subTitulo">Função:</h4>
-                    <p   class="campo__descricao">Responsável por todo o processo de devolução correspondente a expedição, como: recebimento, conferencia dos produtos, transfência dos saldos para os almoxarifados de destinos e análise de almoxarifados. Participo dos inventários que ocorre na empresa e nos momentos de baixa demanda na devolução ajudo na preparação de produtos, no checkout ou no recebimento de produtos de terceiros</p>
-                    <hr>
-                    <h3  class="campo__lugar">Hanoi Cafe</h3>
-                    <h4  class="campo__subTitulo">Ano:</h4>
-                    <p   class="campo__descricao">2019 - 2019</p>
-                    <h4  class="campo__subTitulo">Cargo:</h4>
-                    <p   class="campo__descricao">Kitchen Porter</p>
-                    <h4  class="campo__subTitulo">Hanoi Cafe</h4>
-                    <p   class="campo__descricao">Era responsável por lavar as louças, organizar a cozinha do restaurante e auxliar o Chefe.</p>
-                    <hr>
-                    <h3  class="campo__lugar">Krona Tubos e Conexões</h3>
-                    <h4  class="campo__subTitulo">Ano:</h4>
-                    <p   class="campo__descricao">206 - 2018</p>
-                    <h4  class="campo__subTitulo">Cargo:</h4>
-                    <p   class="campo__descricao">Compositor de Pedido</p>
-                    <h4  class="campo__subTitulo">Função:</h4>
-                    <p   class="campo__descricao">Preparação de pedidos para exportação, montagem do packing list, acompanhamento do carregamento dos pedidos de exportação, alimentação de planilhas e inventário.</p>
-                </section>
+            <section class="curriculo__secao">
+                <h2  class="curriculo__titulo">Experiência</h2>
+                <h3  class="curriculo__lugar">Krona Tubos e Conexões</h3>
+                <h4  class="curriculo__subTitulo">Ano:</h4>
+                <p   class="curriculo__descricao">2019 - atualmente</p>
+                <h4  class="curriculo__subTitulo">Cargo:</h4>
+                <p   class="curriculo__descricao">Operador Logistico</p>
+                <h4  class="curriculo__subTitulo">Função:</h4>
+                <p   class="curriculo__descricao">Responsável por todo o processo de devolução correspondente a
+                    expedição, como: recebimento, conferencia dos produtos, transfência dos saldos para os almoxarifados
+                    de destinos e análise de almoxarifados. Participo dos inventários que ocorre na empresa e nos
+                    momentos de baixa demanda na devolução ajudo na preparação de produtos, no checkout ou no
+                    recebimento de produtos de terceiros</p>
+                <hr>
+                <h3  class="curriculo__lugar">Hanoi Cafe</h3>
+                <h4  class="curriculo__subTitulo">Ano:</h4>
+                <p   class="curriculo__descricao">2019 - 2019</p>
+                <h4  class="curriculo__subTitulo">Cargo:</h4>
+                <p   class="curriculo__descricao">Kitchen Porter</p>
+                <h4  class="curriculo__subTitulo">Hanoi Cafe</h4>
+                <p   class="curriculo__descricao">Era responsável por lavar as louças, organizar a cozinha do restaurante
+                    e auxliar o Chefe.</p>
+                <hr>
+                <h3  class="curriculo__lugar">Krona Tubos e Conexões</h3>
+                <h4  class="curriculo__subTitulo">Ano:</h4>
+                <p   class="curriculo__descricao">206 - 2018</p>
+                <h4  class="curriculo__subTitulo">Cargo:</h4>
+                <p   class="curriculo__descricao">Compositor de Pedido</p>
+                <h4  class="curriculo__subTitulo">Função:</h4>
+                <p   class="curriculo__descricao">Preparação de pedidos para exportação, montagem do packing list,
+                    acompanhamento do carregamento dos pedidos de exportação, alimentação de planilhas e inventário.</p>
+            </section>
 
-                <section class="campo">
-                    <h2  class="campo__titulo">Educação</h2>
-                    <h3  class="campo__lugar">Unisociesc</h3>
-                    <p   class="campo__descricao">Técnico em Logística</p>
-                    <p   class="campo__descricao">Conclusão: 2015</p>
-                    <h3  class="campo__lugar">CCEL</h3>
-                    <p   class="campo__descricao">Inglês</p>
-                    <p   class="campo__descricao">Conclusão: 2019</p>
-                    <h3  class="campo__lugar">Alura</h3>
-                    <p   class="campo__descricao">Curso de Front End</p>
-                    <p   class="campo__descricao">Cursando</p>
-                </section>
-            </div> 
+            <section class="curriculo__secao">
+                <h2  class="curriculo__titulo">Educação</h2>
+                <h3  class="curriculo__lugar">Unisociesc</h3>
+                <p   class="curriculo__descricao">Técnico em Logística</p>
+                <p   class="curriculo__descricao">Conclusão: 2015</p>
+                <h3  class="curriculo__lugar">CCEL</h3>
+                <p   class="curriculo__descricao">Inglês</p>
+                <p   class="curriculo__descricao">Conclusão: 2019</p>
+                <h3  class="curriculo__lugar">Alura</h3>
+                <p   class="curriculo__descricao">Curso de Front End</p>
+                <p   class="curriculo__descricao">Cursando</p>
+            </section>
         </section>
     </main>
 </body>
+
 </html>

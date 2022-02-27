@@ -1,0 +1,10 @@
+.curriculo__titulo {
+    background-image: linear-gradient(to right, var(--cor3), var(--cor0));
+    border-radius: 10px 10px 0 0 ;
+    font-family: var(--roboto);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: .8rem;
+    padding: .5rem;
+    
+}

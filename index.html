@@ -11,29 +11,32 @@
     <link rel="stylesheet" href="assets/style/style.css">
     <link rel="stylesheet" href="assets/style/body.css">
     <link rel="stylesheet" href="assets/style/cabecalho.css">
+    <link rel="stylesheet" href="assets/style/cabecalhoJS.css">
     <link rel="stylesheet" href="assets/style/logo.css">
     <link rel="stylesheet" href="assets/style/menu/menu.css">
     <link rel="stylesheet" href="assets/style/menu/menu-item.css">
     <link rel="stylesheet" href="assets/style/menu/menu-icone.css">
+    <link rel="stylesheet" href="assets/style/menu/menu__link.css">
     <link rel="stylesheet" href="assets/style/capa/capa.css">
     <link rel="stylesheet" href="assets/style/capa/capa-imagem.css">
     <link rel="stylesheet" href="assets/style/capa/capa-imagem-minhaFoto.css">
     <link rel="stylesheet" href="assets/style/capa/capa-descricao.css">
+    <script type="text/javascript" src="assets/js/script.js"></script>
     
 
 </head>
 
 <body id="home">
 
-    <header class="cabecalho cabecalho--modificado">
+    <header id="cabecalho" class="cabecalho">
         <h1 class="logo--off">Adriano Rosa</h1>
-        <nav class="menu">
-            <ul class="menu__lista">
-                <li class="menu__icone">&#9776;</li>
-                <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
-                <li class="menu__item"><a class="menu__link" href="portifolio.html">Portifólio</a></li>
-                <li class="menu__item"><a class="menu__link" href="curriculo.html">Curriculo</a></li>
-                <li class="menu__item"><a class="menu__link" href="Contato.html">contato</a></li>
+        <nav>
+            <ul class="menu__lista menu__lista--js">
+                <li class="menu__item menu__item--js"><a class="menu__link" href="index.html">Home</a></li>
+                <li class="menu__item menu__item--js"><a class="menu__link" href="portifolio.html">Portifólio</a></li>
+                <li class="menu__item menu__item--js"><a class="menu__link" href="curriculo.html">Curriculo</a></li>
+                <li class="menu__item menu__item--js"><a class="menu__link" href="Contato.html">Contato</a></li>
+                <li class="menu__icone" onclick="openMenu()">&#9776;</li>
             </ul>
         </nav>
     </header>

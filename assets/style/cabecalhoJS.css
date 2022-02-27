@@ -1,0 +1,21 @@
+.cabecalho--js{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .cabecalho--js .menu__lista--js {
+     text-align: center;
+     padding: 1rem 0;
+ }
+
+ .cabecalho--js .menu__item--js {
+    display: block;
+    border-bottom: 1px solid var(--cor0);
+    padding: 1rem 4rem;
+}
+
+.cabecalho--js .logo {
+    padding: 1rem 0 0 0;
+    width: 100%;
+    text-align: center;
+}

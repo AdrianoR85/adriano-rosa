@@ -1,0 +1,6 @@
+.menu__link {
+    text-decoration: none;
+    color: var(--cor3);
+    font-family: var(--roboto);
+    font-size: 1.2rem;
+}
