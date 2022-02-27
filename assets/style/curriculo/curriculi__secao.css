@@ -6,5 +6,7 @@
     font-family: var(--montserrat);
     line-height: 1.3rem;
     margin: .5rem;
+    padding-bottom: .5rem;
+    padding-right: .3rem;
     
 }

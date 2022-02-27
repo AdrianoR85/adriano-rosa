@@ -1,5 +1,7 @@
 .curriculo__lugar {
-    margin: .7rem .5rem;
+    margin-left: .5rem;
+    padding-bottom: .2rem;
+    padding-top: .5rem;
     font-size: 1.08em;
     font-weight: bold;
 }

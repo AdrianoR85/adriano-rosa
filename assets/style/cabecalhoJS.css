@@ -19,3 +19,14 @@
     width: 100%;
     text-align: center;
 }
+
+.cabecalho--js .menu__icone--js {
+    margin-left: 45%;
+    padding: .5rem 0 0;
+    width: 2px;
+    cursor: pointer;
+}
+
+.cabecalho--js .menu__icone--js:hover {
+    color: var(--cor0);
+}

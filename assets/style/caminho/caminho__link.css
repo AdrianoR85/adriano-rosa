@@ -1,0 +1,9 @@
+.caminho__link {
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+.caminho__link:hover {
+    color: var(--cor5);
+    font-weight: 600;
+}

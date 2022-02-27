@@ -3,4 +3,9 @@
     font-size: 1em;
     font-weight: 500;
     font-style: italic;
+    padding-top: .5rem;
+}
+
+.curriculo__descricao--espaco {
+    padding-top: .5rem;
 }
