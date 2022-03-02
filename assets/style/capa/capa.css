@@ -5,3 +5,10 @@
     height: calc(100vh - 80px);
     justify-content: center;
 }
+
+@media screen and (min-width: 900px) {
+    .capa {
+        flex-direction: row;
+        height: calc(100vh - 86px);
+    }
+}

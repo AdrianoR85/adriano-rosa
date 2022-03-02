@@ -17,3 +17,13 @@
     font-size: 1.1rem;
     font-family: var(--montserrat);
 }
+
+@media screen and (min-width: 900px) {
+    .capa__descricao___titulo {
+        font-size: 8rem;
+    }
+
+    .capa__descricao___subTitulo {
+        font-size: 1.5rem;
+    }
+}

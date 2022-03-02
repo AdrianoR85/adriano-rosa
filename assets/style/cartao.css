@@ -1,4 +1,37 @@
 .cartao {
     background: var(--cor5);
-    width: 100%;
+    display: flex;
 }
+
+.cartao__foto {
+    border-radius: 10px;
+    width: 150px;
+}
+
+@media screen and (min-width: 0) {
+    .cartao {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cartao__foto {
+        width: 130px;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .cartao {
+        flex-direction: row;
+        width: 450px;
+        margin: 2rem auto;
+    }
+
+    .cartao__foto {
+        margin-left: .3rem;
+        width: 150px;
+    }
+}
+
+

@@ -3,3 +3,9 @@
     font-family: var(--roboto);
     font-size: 1rem;
 }
+
+@media screen and (min-width: 900px) {
+    .caminho__item {
+        font-size: 1.2rem;
+    }  
+}

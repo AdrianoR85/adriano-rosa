@@ -1,0 +1,8 @@
+@media screen and (min-width: 900px) {
+    .menu__lista {
+        display: flex;
+        justify-content: space-between;
+        width: 400px;
+        
+    }
+}

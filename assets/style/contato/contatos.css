@@ -1,0 +1,12 @@
+@media screen and (min-width: 900px) {
+    .contatos {
+        width: 900px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .contatos {
+        width: 1000px;
+    }
+}

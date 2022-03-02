@@ -5,3 +5,9 @@
    justify-content: right;
 
 }
+
+@media screen and (min-width: 900px) {
+   .cabecalho {
+      padding: 2rem;
+   } 
+}

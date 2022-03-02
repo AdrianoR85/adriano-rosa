@@ -11,3 +11,9 @@
 .logo--off {
     display: none;
 }
+
+@media screen and (min-width: 900px) {
+     .logo {
+        font-size: 3rem;
+     }
+}

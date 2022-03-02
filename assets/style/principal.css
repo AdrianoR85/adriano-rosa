@@ -1,16 +1,14 @@
-.caminho {
-    padding: 1rem;
-}
 
-@media screen and (min-width: 760px) {
-    .caminho {
+
+@media screen and (min-width: 900px) {
+    .principal {
         width: 900px;
         margin: auto;
     }
 }
 
 @media screen and (min-width: 1000px) {
-    .caminho {
+    .principal {
         width: 1000px;
         margin: auto;
     }
