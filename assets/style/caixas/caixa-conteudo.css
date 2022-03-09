@@ -16,4 +16,11 @@
     color: var(--cor3);
     font-size: 1.2rem;
     font-family: var(--roboto);
+    padding-bottom: .5rem;
+}
+
+.caixa__conteudo--texto {
+    color: var(--cor3);
+    font-size: .8rem;
+    font-family: var(--roboto);
 }
